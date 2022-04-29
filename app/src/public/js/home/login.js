@@ -18,6 +18,14 @@ function login() {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(req),
-    }).then((res) => res.json()).then(console.log);
+    })
+    .then((res) => res.json())
+    .then((res) => {
+        if (res.success) {
+            location.href = "/";
+        } else {
+            alert(res.msg);
+        }
+    });
 
 }
