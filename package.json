@@ -2,5 +2,26 @@
   "dependencies": {
     "ejs": "^3.1.7",
     "express": "^4.18.0"
-  }
+  },
+  "name": "login-lecture",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "login-lecture": "bin/www.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeo-kim/node-prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeo-kim/node-prac/issues"
+  },
+  "homepage": "https://github.com/jeo-kim/node-prac#readme",
+  "description": ""
 }
